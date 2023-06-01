@@ -26,6 +26,16 @@ header #titulo:hover {
     position: relative;
 }
 
+#login{
+    z-index: 3;
+    position: relative;
+}
+
+#register{
+    z-index: 3;
+    position: relative;
+}
+
 
 header {
     font-family: 'Times New Roman', Times, serif;
