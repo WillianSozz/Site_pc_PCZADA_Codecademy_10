@@ -5,13 +5,19 @@ html {
 /* header */
 
 header #titulo {
-    color: white;
+    color: orangered;
     text-transform: uppercase;
-    text-align: center;
     text-shadow: black 0.1em 0.1em 0.2em;
     font-size: 50px;
+    text-align: left;
+    position: relative;
+    left: 80px;
+    top: 70px;
 }
 
+header #titulo:hover {
+    color: white
+}
 header {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -19,8 +25,12 @@ header {
     text-align: center;
     background-color: rgb(12, 138, 241);
     margin: -20px;
-    margin-top: -35px;
+    margin-top: -100px;
     color:white;
+    position:fixed;
+    width: 105%;
+    z-index: 999;
+    
 }
 
 header a label {
@@ -35,11 +45,14 @@ header a label {
     color:white;
     margin:auto;
     margin-top: 20px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
 }
 
 #header2 label{
     cursor: pointer;
 }
+
 
 /* main */
 
@@ -47,6 +60,9 @@ main{
     margin-left: 7%;
     margin-right: 7%;
     margin-top: 5%;
+    position: relative;
+    overflow-y: auto;
+    padding: 100px 0px;
 }
 
 .pag {
