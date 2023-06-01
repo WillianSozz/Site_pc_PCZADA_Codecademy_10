@@ -78,6 +78,20 @@ main{
     cursor: pointer;
 }
 
+#comprar:hover {
+    background-color: rgb(12, 138, 241);
+    transition: background-color .15s, font-size .15s;
+    font-size: 60px;
+  }
+
+#okcep{
+    cursor: pointer;
+}  
+
+#nocep{
+    cursor: pointer;
+}  
+
 html {
     background-color: rgb(255, 255, 255);
     margin-top: auto;
