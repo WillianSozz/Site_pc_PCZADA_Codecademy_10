@@ -1,40 +1,24 @@
-html {
-    box-sizing: border-box;
-}
 
 /* header */
 
-header #titulo {
+.titulo {
+    position: relative;
     color: orangered;
     text-transform: uppercase;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    font-size: 50px;
-    text-align: left;
-    position: relative;
-    left: 80px;
-    top: 70px;
-    z-index: 2;
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+    font-size: 40px;
+    right: 200px;
+    top: 10px;
 }
 
-header #titulo:hover {
+header #pesquisa {
+    border-radius: 10px;
+    height: 30px;
+}
+
+.titulo:hover {
     color: white
 }
-
-#pesquisa{
-    z-index: 3;
-    position: relative;
-}
-
-#login{
-    z-index: 3;
-    position: relative;
-}
-
-#register{
-    z-index: 3;
-    position: relative;
-}
-
 
 header {
     font-family: 'Times New Roman', Times, serif;
@@ -42,15 +26,13 @@ header {
     font-size: 20px;
     text-align: center;
     background-color: rgb(12, 138, 241);
-    margin: -20px;
-    margin-top: -100px;
+    margin: -10px;
     color:white;
-    position: absolute;
-    width: 105%;
-    z-index: 1;
+    width: 102%;
+    
 }
 
-header a label {
+a label {
     cursor: pointer;
 }
 
@@ -79,7 +61,6 @@ main{
     margin-top: 5%;
     position: relative;
     overflow-y: auto;
-    padding: 100px 0px;
 }
 
 .pag {
@@ -130,5 +111,16 @@ html {
     margin-top: auto;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
 }
 
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+* {
+    box-sizing: border-box;
+}
